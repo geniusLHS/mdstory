@@ -1,0 +1,26 @@
+{
+  "name": "mdstory",
+  "version": "1.0.0",
+  "description": "write tistory post with markdown",
+  "author": "geniusLHS",
+  "bin": {
+    "mdstory": "bin/cli.js"
+  },
+  "license": "MIT",
+  "keywords": [
+    "markdown",
+    "tistory"
+  ],
+  "files": [
+    "cli"
+  ],
+  "dependencies": {
+    "commander": "^9.4.1",
+    "fs": "^0.0.1-security",
+    "marked": "^4.2.5",
+    "open": "^8.4.0",
+    "showdown": "^2.1.0",
+    "sync-request": "^6.1.0",
+    "yaml": "^2.2.1"
+  }
+}
